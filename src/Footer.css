@@ -1,0 +1,33 @@
+.footer {
+    background-color: #494545;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .members {
+    font-size: 14px;
+  }
+  
+  .members ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .members li {
+    margin-bottom: 5px;
+  }
+  
+  .github-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  .codesandbox-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  

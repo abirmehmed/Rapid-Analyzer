@@ -1,0 +1,69 @@
+.quote-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-content {
+    flex: 1;
+    animation: fade-in-left 1s ease-in-out;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .quote-occupation {
+    font-size: 16px;
+    color: #777777;
+  }
+  
+  .quote-image {
+    flex: 1;
+    animation: fade-in-right 1s ease-in-out;
+    max-width: 200px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any overflow from the circular shape */
+  }
+  
+  .quote-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the circular container */
+  }
+  
+  @keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fade-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

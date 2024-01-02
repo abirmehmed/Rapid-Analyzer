@@ -1,0 +1,25 @@
+.app-details-container {
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row */
+  justify-content: center; /* Horizontally center the boxes */
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.app-details-box {
+  width: 200px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px; /* Add margin to create space between the boxes */
+}
+
+.animated-number {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
