@@ -3,6 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
+    <section id="about">
     <div className="About">
       <p>
         <br />
@@ -26,6 +27,7 @@ const About = () => {
         make informed strategic decisions.
       </p>
     </div>
+    </section>
   );
 };
 

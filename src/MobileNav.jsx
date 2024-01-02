@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const MobileNav = ({ showMenu, toggleMenu }) => {
   return (
@@ -10,9 +11,21 @@ const MobileNav = ({ showMenu, toggleMenu }) => {
       </div>
       {showMenu && (
         <ul className="mobile-menu">
-          <li>About</li>
-          <li>Chart</li>
-          <li>Credit</li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="chart" smooth={true} duration={500}>
+              Chart
+            </Link>
+          </li>
+          <li>
+            <Link to="credit" smooth={true} duration={500}>
+              Credit
+            </Link>
+          </li>
         </ul>
       )}
     </div>

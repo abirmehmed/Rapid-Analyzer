@@ -5,7 +5,9 @@ import CodeSandboxIcon from "./image/CodeSandbox.png";
 
 const Footer = () => {
   return (
+    
     <footer className="footer">
+      <section id="credit">
       <div className="members">
         <p>Credits:</p>
         <ul>
@@ -34,7 +36,9 @@ const Footer = () => {
           />
         </a>
       </div>
+      </section>
     </footer>
+    
   );
 };
 

@@ -18,6 +18,7 @@ const SentimentAnalysis = () => {
   };
 
   return (
+    <section id="chart">
     <div>
       <input
         type="text"
@@ -28,6 +29,7 @@ const SentimentAnalysis = () => {
       <button onClick={analyzeSentiment}>Analyze</button>
       <p>{sentiment}</p>
     </div>
+    </section>
   );
 };
 
