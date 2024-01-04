@@ -1,7 +1,7 @@
 .app-details-container {
   display: flex;
-  flex-direction: row; /* Change flex-direction to row */
-  justify-content: center; /* Horizontally center the boxes */
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
   padding: 20px;
@@ -15,11 +15,19 @@
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 10px; /* Add margin to create space between the boxes */
+  margin: 10px;
 }
 
 .animated-number {
   color: red;
   font-size: 24px;
   font-weight: bold;
+}
+
+.ratings-chart {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
