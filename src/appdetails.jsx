@@ -82,7 +82,7 @@ const AppDetails = () => {
         .data(ratingsData)
         .enter()
         .append('text')
-        .attr('x', d => xScale(d.rating) + xScale.bandwidth() / 2 - xScale.bandwidth() / 3)
+        .attr('x', d => xScale(d.rating) + xScale.bandwidth() / 2 - xScale.bandwidth() / 2)
         .attr('y', d => yScale(d.count) - 10)
         .attr('dy', '0.35em')
         .text(d => d.count);

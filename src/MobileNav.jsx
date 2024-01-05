@@ -18,7 +18,7 @@ const MobileNav = ({ showMenu, toggleMenu }) => {
           </li>
           <li>
             <Link to="chart" smooth={true} duration={500}>
-              Chart
+              Analyze
             </Link>
           </li>
           <li>
