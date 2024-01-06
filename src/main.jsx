@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Header from './Header.jsx'
-// import App from'./App.jsx'
 import QuoteCard from "./QuoteCard.jsx";
 import About from './About.jsx';
 import Footer from './Footer.jsx';
@@ -16,7 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <About/>
     <SentimentAnalysis/>
     <AppDetails/>
-    {/* <App/> */}
     <Footer/>
   </React.StrictMode>,
 )

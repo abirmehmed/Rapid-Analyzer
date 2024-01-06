@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from nltk.sentiment.vader import SentimentIntensityAnalyzer  # Updated import
+from nltk.sentiment.vader import SentimentIntensityAnalyzer  
 
 app = Flask(__name__)
 CORS(app)
