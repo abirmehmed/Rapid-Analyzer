@@ -1,5 +1,4 @@
-# Project Title: Sentiment Analysis and Google Play Store Data Visualization
-
+# Project Title: Rapid Analyzer 
 This project is a full-stack application that uses React.js for the frontend, Flask and Python for sentiment analysis, and Node.js for data scraping. The application allows users to input a sentence and get a sentiment analysis result. It also allows users to input an App ID from the Google Play Store and get a detailed visualization of the app's ratings.
 
 ## Technologies Used
