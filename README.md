@@ -15,7 +15,7 @@ This project is a full-stack application that uses React.js for the frontend, Fl
 
 ## How to Run the Program
 
-1. **Clone the repository**: Use the command `git clone <repository-url>` to clone the repository to your local machine.
+1. **Clone the repository**: Use the command `git clone https://github.com/abirmehmed/Rapid-analyzer` to clone the repository to your local machine.
 
 2. **Install dependencies**: Navigate to the project directory and run `npm install` to install all the necessary dependencies.
 
